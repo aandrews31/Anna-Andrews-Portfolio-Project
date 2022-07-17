@@ -1,0 +1,12 @@
+.bottom-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.background-image {
+  background: url("/src/my-picture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
