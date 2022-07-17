@@ -10,3 +10,14 @@
   background-size: cover;
   background-attachment: scroll;
 }
+.project-heading {
+  text-align: center;
+}
+.contact-text {
+  text-align: center;
+}
+.contact-picture {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
