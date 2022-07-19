@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
 .about-me {
   padding: 50px;
   padding-bottom: 400px;
@@ -26,4 +30,36 @@
   max-width: 300px;
   display: block;
   margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .home-photo {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .homepage-grid {
+    text-align: center;
+  }
+}
+.project-button {
+  background: #00aaf8;
+  color: #fff1eb;
+  font-family: "Kanit", sans-serif;
+}
+.contact-button {
+  background: #00aaf8;
+  color: fff1eb;
+  font-family: "Kanit", sans-serif;
+}
+.heading {
+  color: #6e2100;
+  font-family: "Kanit", sans-serif;
+}
+.sub-heading {
+  color: #af3500;
+  font-family: "Kanit", sans-serif;
+}
+
+.paragraph {
+  color: #df622d;
+  font-family: "Kanit", sans-serif;
 }
