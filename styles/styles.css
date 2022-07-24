@@ -40,14 +40,9 @@ body {
     text-align: center;
   }
 }
-.project-button {
+.all-buttons {
   background: #00aaf8;
   color: #fff1eb;
-  font-family: "Kanit", sans-serif;
-}
-.contact-button {
-  background: #00aaf8;
-  color: fff1eb;
   font-family: "Kanit", sans-serif;
 }
 .heading {
@@ -62,4 +57,7 @@ body {
 .paragraph {
   color: #df622d;
   font-family: "Kanit", sans-serif;
+}
+.home-photo {
+  max-width: 350px;
 }
