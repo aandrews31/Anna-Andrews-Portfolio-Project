@@ -31,6 +31,22 @@ body {
   display: block;
   margin: 0 auto;
 }
+.all-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 300px;
+}
+@media (max-width: 990px) {
+  .all-projects {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .website-buttons {
+    display: none;
+  }
+}
 @media (max-width: 576px) {
   .home-photo {
     max-width: 200px;
